@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&ampfamily=DM+Serif+Display:ital@0;1amp;family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&ampfamily=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&ampfamily=Open+Sans:ital,wght@0,300..800;1,300..800&ampfamily=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&ampfamily=Public+Sans:ital,wght@0,100..900;1,100..900&ampfamily=Quantico:ital,wght@0,400;0,700;1,400;1,700&ampfamily=Roboto:ital,wght@0,100..900;1,100..900&ampfamily=Rubik:ital,wght@0,300..900;1,300..900&ampdisplay=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="bg-[#014E56]">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+            <img src="rasm/myteam.png" alt="Logo" class="h-8">
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#" class="text-white font-semibold hover:text-[#F67E7E]">Home</a>
+                <a href="#" class="text-white font-semibold hover:text-[#F67E7E]">About</a>
+                <button
+                    class="border border-white text-white rounded-full py-2 px-6 hover:bg-white hover:text-[#014E56] transition">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+        <div class="container mx-auto p-4">
+            <div class="relative inline-block text-left">
+                <button id="dropdownButton" class="block md:hidden">
+                    <img src="rasm/Group 2 (2).png" alt="User" class="w-10 h-10 ml-[600px] mt-[-90px]">
+                </button>
+        
+                <div id="dropdownMenu"
+                    class="hidden md:hidden absolute left-[448px] top-[-39px] w-48 rounded-md shadow-lg bg-[#004047] ring-1 ring-opacity-5 z-50">
+                    <div class="py-1">
+                        <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-[#013C40]">Home</a>
+                        <a href="#" class="block px-4 py-2 text-sm text-white hover:bg-[#013C40]">About</a>
+                        <a href="#"><button class="border border-white text-white rounded-full py-2 px-6 hover:bg-white hover:text-[#014E56] transition">
+                            Contact Us
+                            </button></a>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </header>
+    <section class="bg-[#014E56] py-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col lg:flex-row items-center lg:items-start gap-10 justify-between">
+            <h1 class="text-white text-5xl font-bold flex-shrink-0  ">About</h1>
+            <p class="text-white text-base sm:text-lg font-medium leading-relaxed max-w-2xl pt-7">
+                We help companies build dynamic teams made up of top global talent. Using our
+                network of passionate professionals we drive innovation and deliver incredible
+                outcomes. Talented, diverse teams shape the best products and experiences.
+                We’ll bring those teams to you.
+            </p>
+        </div>
+    </section>
+    <main class="bg-[#004047] py-20 px-4">
+        <h1 class="text-white text-4xl sm:text-5xl font-bold text-center mb-12">Meet the directors</h1>
+        <div class="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    
+            <div class="bg-[#012F34] p-6 text-center rounded-lg">
+                <img src="rasm/Oval.png" alt="Nikita Marks" class="mx-auto mb-4 w-24 h-24">
+                <h2 class="text-white font-bold text-lg">Nikita Marks</h2>
+                <p class="text-white text-sm">Founder &amp; CEO</p>
+                <img src="rasm/Group 13.png" alt="socials" class="mx-auto mt-4">
+            </div>
+    
+    
+            <div class="bg-[#012F34] p-6 text-center rounded-lg">
+                <img src="rasm/Oval (1).png" alt="Cristian Duncan" class="mx-auto mb-4 w-24 h-24">
+                <h2 class="text-white font-bold text-lg">Cristian Duncan</h2>
+                <p class="text-white text-sm">Co-founder &amp; COO</p>
+                <img src="rasm/Group 13.png" alt="socials" class="mx-auto mt-4">
+            </div>
+    
+    
+            <div class="bg-[#012F34] p-6 text-center rounded-lg">
+                <img src="rasm/Oval (2).png" alt="Cruz Hamer" class="mx-auto mb-4 w-24 h-24">
+                <h2 class="text-white font-bold text-lg">Cruz Hamer</h2>
+                <p class="text-white text-sm">Co-founder &amp; CTO</p>
+                <img src="rasm/Group 13.png" alt="socials" class="mx-auto mt-4">
+            </div>
+        </div>
+        </main>
+        <section class="bg-[#012F34] py-20">
+            <h2 class="text-white text-4xl sm:text-5xl font-bold text-center">Some of our clients</h2>
+            <div class="flex flex-wrap justify-center gap-10 mt-12 px-4">
+                <img src="rasm/Bitmap.png" alt="Client 1" class=" w-[165px] h-[22px]">
+                <img src="rasm/Bitmap (1).png" alt="Client 2" class="w-[184px]  h-[18px]">
+                <img src="rasm/Bitmap (2).png" alt="Client 3" class="w-[180px] h-[22px]">
+                <img src="rasm/Bitmap (4).png" alt="Client 4" class="w-[165px] h-[22px]">
+                <img src="rasm/Bitmap (5).png" alt="Client 5" class="w-[98px] h-[36px]">
+            </div>
+            </section>
+            <section class="bg-[#F67E7E] py-16 px-4">
+                <div class="max-w-6xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6">
+                  <h2 class="text-3xl sm:text-4xl font-bold text-center lg:text-left">Ready to get started?</h2>
+                  <button class="text-black border border-black font-semibold py-3 px-6 rounded-full hover:bg-white hover:text-[#014E56] duration-300">
+                    Contact Us
+                  </button>
+                </div>
+              </section>
+            <footer class="bg-[#002529] py-6 px-4">
+                <div class="max-w-6xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+                    <img src="rasm/myteam.png" alt="logo" class="w-28">
+                    <div class="flex gap-4 text-white text-xl">
+                        <i class="fab fa-facebook-f hover:text-[#F67E7E]"></i>
+                        <img src="rasm/pinterest-logo.svg" alt="">
+                        <i class="fab fa-twitter hover:text-[#F67E7E]"></i>
+                    </div>
+                </div>  
+            </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
